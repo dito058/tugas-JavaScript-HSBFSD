@@ -1,0 +1,218 @@
+/* Mobile Devices */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    section .bg-img {
+        width: 200%;
+        margin-left: -50%;
+        height: 100%;
+    }
+
+    nav {
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 5vh;
+    }
+
+    nav .logo {
+        display: none;
+    }
+
+    nav .navigation {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .navigation ul {
+        font-size: 75%;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 1%;
+    }
+
+    nav .navigation .regist {
+        width: 10%;
+        height: 4vh;
+        margin-top: 0.5vh;
+        font-size: 50%;
+        margin-right: -20%;
+    }
+
+    nav .navigation .log {
+        width: 10%;
+        height: 4vh;
+        margin-top: 0.5vh;
+        font-size: 50%;
+        margin-right: 10%;
+    }
+
+    section .image {
+        display: none;
+    }
+
+    section .about {
+        width: 75%;
+    }
+
+    section .about h2 {
+        font-size: 150%;
+    }
+
+    section .about p {
+        font-size: 90%;
+    }
+
+    section .about button {
+        width: 100%;
+        height: 10vh;
+    }
+}
+
+/* iPads/Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    section .bg-img {
+        height: 100%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        height: 5vh;
+    }
+
+    nav .logo {
+        width: 50%;
+    }
+
+    nav .logo a {
+        font-size: 70%;
+    }
+
+    nav .navigation {
+        width: 100%;
+    }
+
+    nav .navigation ul {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        padding-right: 5%;
+    }
+
+    nav .navigation a {
+        font-size: 50%;
+    }
+
+    nav .navigation .regist {
+        width: 15%;
+        height: 4vh;
+        font-size: 50%;
+        margin-left: 3%;
+    }
+
+    nav .navigation .log {
+        width: 15%;
+        height: 4vh;
+        font-size: 50%;
+    }
+
+    section .image {
+        width: 40%;
+    }
+
+    section .about {
+        width: 50%;
+    }
+
+    section .about h2 {
+        font-size: 100%;
+    }
+
+    section .about button {
+        width: 75%;
+        font-size: 75%;
+    }
+}
+
+/* Small Screen/Laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    section .bg-img {
+        height: 100%;
+    }
+
+    nav .logo {
+        width: 30%;
+    }
+
+    nav .logo a {
+        font-size: 75%;
+    }
+
+    nav .navigation {
+        width: 75%;
+    }
+
+    nav .navigation ul {
+        padding-right: 2%;
+    }
+
+    nav .navigation .regist {
+        height: 5vh;
+        font-size: 75%;
+    }
+
+    nav .navigation .log {
+        height: 5vh;
+        font-size: 75%;
+    }
+
+    section .about h2 {
+        font-size: 175%;
+    }
+
+    section .about button {
+        width: 75%;
+    }
+}
+
+/* Large Screen/Desktops (Optional?) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    section .bg-img {
+        height: 100%;
+    }
+
+    nav .navigation ul {
+        padding-right: 5%;
+    }
+
+    nav .navigation .regist {
+        height: 5vh;
+        font-size: 75%;
+    }
+
+    nav .navigation .log {
+        height: 5vh;
+        font-size: 75%;
+    }
+
+    section .about h2 {
+        font-size: 175%;
+    }
+
+    section .about button {
+        font-size: 90%;
+    }
+}
+
+/* Extra Large Screen/TV (Optional) */
+@media only screen and (min-width: 1201px) {
+    section .bg-img {
+        height: 100%;
+    }
+
+    section .about p {
+        font-size: 150%;
+    }
+}
